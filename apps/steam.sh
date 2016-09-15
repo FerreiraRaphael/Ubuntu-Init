@@ -1,7 +1,8 @@
+#!/bin/sh
 
 #Steam
-path="~/Downloads"
-file=$path"/steam_latest.deb"
+path="$HOME/Downloads"
+file="$path/steam_latest.deb"
 
 #Download
 [ -f $file ] && rm $file
